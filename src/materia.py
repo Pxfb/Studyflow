@@ -1,18 +1,18 @@
 class materia:
-    def __init__(self, name, dificulty, time_to_exam, priority):
+    def __init__(self, name, difficulty, hours_per_day, days_to_exam):
         self.__name = name
-        self.__dificulty = dificulty
-        self.__time_to_exam = time_to_exam
-        self.__priority = priority
+        self.__difficulty = difficulty
+        self.__hours_per_day = hours_per_day
+        self.__days_to_exam = days_to_exam
     
     def get_name(self):
         return self.__name
     
-    def get_dificulty(self):
-        return self.__dificulty
+    def get_difficulty(self):
+        return self.__difficulty
     
-    def get_time_to_exam(self):
-        return self.__time_to_exam
+    def get_hours_per_day(self):
+        return self.__hours_per_day
     
-    def get_priority(self):
-        return self.__priority
+    def get_days_to_exam(self):
+        return self.__days_to_exam
